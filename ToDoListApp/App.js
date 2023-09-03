@@ -67,13 +67,13 @@ const App = () => {
     const newItems = [...items];
     newItems.splice(index, 1);
     setItems(newItems);
-  };
+  }
 
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col col-md-3 text-center m-auto mt-5 col2">
-          <h1 className="mt-2">ToDo List</h1>
+        <div className="col col-md-3 text-center m-auto mt-3 col2">
+          <h1 className="mt-2">ToDo List ✔️</h1>
           <div className="main">
             <input
               type="text"
