@@ -29,7 +29,7 @@ h1{
     margin-top: 200px;
     box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
     background-color: white;
-    height: 100vh;
+    height:auto
 }
 .para{
     font-size: 30px;
@@ -48,15 +48,16 @@ input[type=text]:focus {
 }
 .listt>ul>li{
     color: #8566aa;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: capitalize;
 }
+
 .bt{
     background-color: #8566aa;
     color: white;
 }
 .bt2{
-    font-size: 20px;
+    font-size: 18px;
 }
 .bt:hover{
     background-color: crimson;
@@ -65,7 +66,7 @@ input[type=text]:focus {
 .load{
     width: 3rem;
     height: 3rem;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 25px;
 }
 .lii>button{
@@ -73,4 +74,7 @@ input[type=text]:focus {
 }
 .lii:hover button{
     display: block;
+}
+.listt{
+    margin-bottom: 5px;
 }
