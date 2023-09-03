@@ -68,3 +68,9 @@ input[type=text]:focus {
     margin-top: 100px;
     font-size: 25px;
 }
+.lii>button{
+    display: none;
+}
+.lii:hover button{
+    display: block;
+}
